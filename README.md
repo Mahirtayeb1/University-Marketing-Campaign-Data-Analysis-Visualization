@@ -1,8 +1,8 @@
-🎓 University Marketing Campaign Data Analysis & Visualization (Supabase + Looker Studio)
+# 🎓 University Marketing Campaign Data Analysis & Visualization (Supabase + Looker Studio)
 
 In today’s competitive education landscape, marketing campaigns play a crucial role in reaching prospective students across regions. This project analyzes university marketing campaign data, integrates it into a scalable database, and builds an interactive dashboard to uncover insights about applicant demographics, campaign performance, and agent activity.
 
-📂 Dataset
+## 📂 Dataset
 
 Sources: University outreach & applicant datasets (Applicants, Outreach Calls, Campaigns)
 
@@ -12,7 +12,7 @@ Columns: 15+ across multiple tables
 
 Contents: Applicant profiles, call outcomes, campaign details (type, region, season, status), agent activities
 
-🎯 Project Goals
+## 🎯 Project Goals
 
 ✅ Clean and validate raw datasets using PostgreSQL
 
@@ -24,7 +24,7 @@ Contents: Applicant profiles, call outcomes, campaign details (type, region, sea
 
 ✅ Provide insights on campaign reach, performance, and applicant demographics
 
-🛠️ Challenges & Solutions
+## 🛠️ Challenges & Solutions
 1. ⚠️ Data Cleaning & Business Rule Validation
 
 Problem: Raw datasets contained inconsistencies (duplicate records, missing regions, invalid statuses).
@@ -43,7 +43,7 @@ Problem: Needed real-time, interactive visualization directly from Supabase.
 
 Solution: Connected Looker Studio to Supabase, applied custom SQL queries, and optimized refresh times for large datasets.
 
-📊 Dashboard Overview
+## 📊 Dashboard Overview
 
 The Looker Studio dashboard includes:
 
@@ -59,14 +59,14 @@ The Looker Studio dashboard includes:
 
 📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
 
-🌟 Key Insights
+## 🌟 Key Insights
 Insight	Detail
 🌍 Reach	Applicants came from multiple countries, showing global reach
 🟢 Campaign Region vs Type	Distribution showed ~70% online (with regions) vs 30% offline (no region)
 📞 Connectivity	Clear difference between connected vs disconnected calls, impacting campaign effectiveness
 🧑‍💼 Agent Activity	Some agents showed much higher call volumes and success rates, suggesting performance gaps
 📅 Seasonality	Campaigns varied by season, highlighting opportunities for better scheduling
-💡 Recommendations
+## 💡 Recommendations
 
 📌 Standardize campaign data entry to reduce missing regions
 
@@ -78,7 +78,7 @@ Insight	Detail
 
 📌 Monitor seasonality to time campaigns more effectively
 
-🔗 Demo & Files
+## 🔗 Demo & Files
 
 <a href="#"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
 
@@ -86,7 +86,7 @@ Insight	Detail
 
 <a href="#"> [📂 Dataset Schema & Documentation]</a>
 
-🧠 What I Learned
+## 🧠 What I Learned
 
 Data cleaning & validation with PostgreSQL
 
