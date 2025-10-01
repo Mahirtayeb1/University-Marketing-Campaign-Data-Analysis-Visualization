@@ -2,6 +2,7 @@
 
 > In today’s competitive education landscape, marketing campaigns play a crucial role in reaching prospective students across regions. This project analyzes university marketing campaign data, integrates it into a scalable database, and builds an interactive dashboard to uncover insights about applicant demographics, campaign performance, and agent activity.
 
+
 ## 📂 Dataset
 
 - Sources: University outreach & applicant datasets (Applicants, Outreach Calls, Campaigns)
@@ -11,6 +12,7 @@
 - Columns: 15+ across multiple tables
 
 - Contents: Applicant profiles, call outcomes, campaign details (type, region, season, status), agent activities
+  
 
 ## 🎯 Project Goals
 
@@ -23,6 +25,7 @@
 - ✅ Build an interactive Looker Studio dashboard for stakeholders
 
 - ✅ Provide insights on campaign reach, performance, and applicant demographics
+- 
 
 ## 🛠️ Challenges & Solutions
 ### 1. ⚠️ Data Cleaning & Business Rule Validation
@@ -31,17 +34,20 @@ Problem: Raw datasets contained inconsistencies (duplicate records, missing regi
 
 Solution: Applied SQL cleaning & business rule validation in PostgreSQL before integration.
 
+
 ### 2. 🔄 Master Table Creation
 
 Problem: Data was split across three different tables (Applicants, Outreach, Campaigns).
 
 Solution: Designed SQL joins to create a single master_table (materialized view) in Supabase for easier analysis.
 
+
 ### 3. 📊 Visualization with Looker Studio
 
 Problem: Needed real-time, interactive visualization directly from Supabase.
 
 Solution: Connected Looker Studio to Supabase, applied custom SQL queries, and optimized refresh times for large datasets.
+
 
 ## 📊 Dashboard Overview
 
@@ -60,12 +66,16 @@ The Looker Studio dashboard includes:
 - 📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
 
 ## 🌟 Key Insights
-### Insight	Detail
-- 🌍 Reach	Applicants came from multiple countries, showing global reach
-- 🟢 Campaign Region vs Type	Distribution showed ~70% online (with regions) vs 30% offline (no region)
-- 📞 Connectivity	Clear difference between connected vs disconnected calls, impacting campaign effectiveness
-- 🧑‍💼 Agent Activity	Some agents showed much higher call volumes and success rates, suggesting performance gaps
-- 📅 Seasonality	Campaigns varied by season, highlighting opportunities for better scheduling
+
+| Insight                    | Detail                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| 🌍 Reach                   | Applicants came from multiple countries, showing global reach                              |
+| 🟢 Campaign Region vs Type | Distribution showed ~70% online (with regions) vs 30% offline (no region)                  |
+| 📞 Connectivity            | Clear difference between connected vs disconnected calls, impacting campaign effectiveness |
+| 🧑‍💼 Agent Activity       | Some agents showed much higher call volumes and success rates, suggesting performance gaps |
+| 📅 Seasonality             | Campaigns varied by season, highlighting opportunities for better scheduling               |
+
+
 ## 💡 Recommendations
 
 📌 Standardize campaign data entry to reduce missing regions
@@ -78,6 +88,7 @@ The Looker Studio dashboard includes:
 
 📌 Monitor seasonality to time campaigns more effectively
 
+
 ## 🔗 Demo & Files
 
 - <a href="#"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
@@ -85,6 +96,7 @@ The Looker Studio dashboard includes:
 - <a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
 
 - <a href="#"> [📂 Dataset Schema & Documentation]</a>
+
 
 ## 🧠 What I Learned
 
@@ -97,5 +109,6 @@ The Looker Studio dashboard includes:
 - Designing interactive dashboards in Looker Studio
 
 - Turning raw data into insights for decision-making
+
 
 ## 💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from raw data → database integration → dashboard storytelling.
