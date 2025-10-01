@@ -104,9 +104,9 @@ The Looker Studio dashboard includes:
 
 - <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/University%20Marketing%20Campaign%20Data%20Visualization%20Dashboard.pdf"> [📊 Looker Studio Dashboard Screenshots]</a>
 
-- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/SQL_queries/Data%20Preprocessing_EDA/Master%20table.sql"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/SQL_queries/Data%20Preprocessing_EDA/Master%20table.sql"> [📄 SQL Queries for Master Table]</a>
 
-- <a href="#"> [📂 Dataset Schema & Documentation]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Project%20Report/University%20Marketing%20Campaign%20Data%20Analysis%20and%20Visualization%20Report.pdf"> [📂 Project Documentation]</a>
 
 ---
 
