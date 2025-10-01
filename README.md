@@ -102,7 +102,7 @@ The Looker Studio dashboard includes:
 
 ## 🔗 Demo & Files
 
-- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/images/Calls%20Distribution.PNG"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/images/Calls%20Distribution.PNG"> [📊 Looker Studio Dashboard Screenshots]</a>
 
 - <a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
 
@@ -112,13 +112,13 @@ The Looker Studio dashboard includes:
 
 ## 🧠 What I Learned
 
-- Data cleaning & validation with PostgreSQL
+- Data cleaning & validation with *PostgreSQL*
 
 - Creating materialized views for scalable analytics
 
-- Using Supabase for database hosting & real-time integration
+- Using *Supabase* for database hosting & real-time integration
 
-- Designing interactive dashboards in Looker Studio
+- Designing interactive dashboards in *Looker Studio*
 
 - Turning raw data into insights for decision-making
 
