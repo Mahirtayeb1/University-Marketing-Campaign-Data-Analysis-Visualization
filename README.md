@@ -25,8 +25,8 @@
 - ✅ Build an interactive Looker Studio dashboard for stakeholders
 
 - ✅ Provide insights on campaign reach, performance, and applicant demographics
-- 
 
+  
 ## 🛠️ Challenges & Solutions
 ### 1. ⚠️ Data Cleaning & Business Rule Validation
 
