@@ -102,9 +102,9 @@ The Looker Studio dashboard includes:
 
 ## 🔗 Demo & Files
 
-- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/images/Calls%20Distribution.PNG"> [📊 Looker Studio Dashboard Screenshots]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/University%20Marketing%20Campaign%20Data%20Visualization%20Dashboard.pdf"> [📊 Looker Studio Dashboard Screenshots]</a>
 
-- <a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/SQL_queries/Data%20Preprocessing_EDA/Master%20table.sql"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
 
 - <a href="#"> [📂 Dataset Schema & Documentation]</a>
 
@@ -118,7 +118,7 @@ The Looker Studio dashboard includes:
 
 - Using **Supabase** for database hosting & real-time integration
 
-- Designing interactive dashboards in *Looker Studio*
+- Designing interactive dashboards in **Looker Studio**
 
 - Turning raw data into insights for decision-making
 
