@@ -44,7 +44,7 @@ Solution: Applied SQL cleaning & business rule validation in PostgreSQL before i
 
 Problem: Data was split across three different tables (Applicants, Outreach, Campaigns).
 
-Solution: Designed SQL joins to create a single master_table (materialized view) in Supabase for easier analysis.
+Solution: Designed SQL joins to create a single master_table (materialized view) in **Supabase** for easier analysis.
 
 ---
 
