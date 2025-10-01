@@ -112,11 +112,11 @@ The Looker Studio dashboard includes:
 
 ## 🧠 What I Learned
 
-- Data cleaning & validation with *PostgreSQL*
+- Data cleaning & validation with **PostgreSQL**
 
 - Creating materialized views for scalable analytics
 
-- Using *Supabase* for database hosting & real-time integration
+- Using **Supabase** for database hosting & real-time integration
 
 - Designing interactive dashboards in *Looker Studio*
 
