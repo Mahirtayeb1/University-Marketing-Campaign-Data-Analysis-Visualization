@@ -102,7 +102,7 @@ The Looker Studio dashboard includes:
 
 ## 🔗 Demo & Files
 
-- <a href="[#](https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/images/Calls%20Distribution.PNG)"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
+- <a href="https://github.com/Mahirtayeb1/University-Marketing-Campaign-Data-Analysis-Visualization/blob/main/Dashboard/images/Calls%20Distribution.PNG"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
 
 - <a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
 
