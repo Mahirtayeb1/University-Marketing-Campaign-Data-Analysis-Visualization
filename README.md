@@ -1,4 +1,4 @@
-📊 University Marketing Campaign Data Analysis and Visualization
+# 📊 University Marketing Campaign Data Analysis and Visualization
 
 This project focuses on analyzing and visualizing university marketing campaign data to uncover trends, evaluate performance, and generate actionable insights. The workflow followed an end-to-end data pipeline: cleaning → integration → visualization.
 
