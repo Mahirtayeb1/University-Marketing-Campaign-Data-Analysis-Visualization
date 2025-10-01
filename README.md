@@ -114,13 +114,12 @@ The Looker Studio dashboard includes:
 
 ## 🛠️ Tech Stack
 
-- PostgreSQL
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" height="60"/>
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" height="60"/>
 
 - Supabase
 <img src="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" alt="Supabase" width="60" height="60"/>
 
 - Looker Studio
-<img src="https://lookerstudio.google.com/images/looker-studio-logo.svg" alt="Looker Studio" width="60" height="60"/>
+<img src="[https://lookerstudio.google.com/images/looker-studio-logo.svg](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffunnel.io%2Fdestinations%2Flooker-studio&psig=AOvVaw2rlP6LpWG4XvHxChyl8kku&ust=1759415877079000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJDhopGdg5ADFQAAAAAdAAAAABAE)" alt="Looker Studio" width="60" height="60"/>
 
 ## 💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from raw data → database integration → dashboard storytelling.
