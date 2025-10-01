@@ -1,43 +1,43 @@
 # 🎓 University Marketing Campaign Data Analysis & Visualization (Supabase + Looker Studio)
 
-In today’s competitive education landscape, marketing campaigns play a crucial role in reaching prospective students across regions. This project analyzes university marketing campaign data, integrates it into a scalable database, and builds an interactive dashboard to uncover insights about applicant demographics, campaign performance, and agent activity.
+> In today’s competitive education landscape, marketing campaigns play a crucial role in reaching prospective students across regions. This project analyzes university marketing campaign data, integrates it into a scalable database, and builds an interactive dashboard to uncover insights about applicant demographics, campaign performance, and agent activity.
 
 ## 📂 Dataset
 
-Sources: University outreach & applicant datasets (Applicants, Outreach Calls, Campaigns)
+- Sources: University outreach & applicant datasets (Applicants, Outreach Calls, Campaigns)
 
-Rows: ~33,000
+- Rows: ~33,000
 
-Columns: 15+ across multiple tables
+- Columns: 15+ across multiple tables
 
-Contents: Applicant profiles, call outcomes, campaign details (type, region, season, status), agent activities
+- Contents: Applicant profiles, call outcomes, campaign details (type, region, season, status), agent activities
 
 ## 🎯 Project Goals
 
-✅ Clean and validate raw datasets using PostgreSQL
+- ✅ Clean and validate raw datasets using PostgreSQL
 
-✅ Create a master table by joining applicants, outreach, and campaign data
+- ✅ Create a master table by joining applicants, outreach, and campaign data
 
-✅ Load structured data into Supabase for scalability and integration
+- ✅ Load structured data into Supabase for scalability and integration
 
-✅ Build an interactive Looker Studio dashboard for stakeholders
+- ✅ Build an interactive Looker Studio dashboard for stakeholders
 
-✅ Provide insights on campaign reach, performance, and applicant demographics
+- ✅ Provide insights on campaign reach, performance, and applicant demographics
 
 ## 🛠️ Challenges & Solutions
-1. ⚠️ Data Cleaning & Business Rule Validation
+### 1. ⚠️ Data Cleaning & Business Rule Validation
 
 Problem: Raw datasets contained inconsistencies (duplicate records, missing regions, invalid statuses).
 
 Solution: Applied SQL cleaning & business rule validation in PostgreSQL before integration.
 
-2. 🔄 Master Table Creation
+### 2. 🔄 Master Table Creation
 
 Problem: Data was split across three different tables (Applicants, Outreach, Campaigns).
 
 Solution: Designed SQL joins to create a single master_table (materialized view) in Supabase for easier analysis.
 
-3. 📊 Visualization with Looker Studio
+### 3. 📊 Visualization with Looker Studio
 
 Problem: Needed real-time, interactive visualization directly from Supabase.
 
@@ -47,25 +47,25 @@ Solution: Connected Looker Studio to Supabase, applied custom SQL queries, and o
 
 The Looker Studio dashboard includes:
 
-📈 Time Series: Call trends over time (with campaign season drill-down)
+- 📈 Time Series: Call trends over time (with campaign season drill-down)
 
-🧑‍💼 Agent Performance: Bar chart showing caller activity & outcomes
+- 🧑‍💼 Agent Performance: Bar chart showing caller activity & outcomes
 
-🌍 Geographic Analysis: Geo map of applicant distribution by country
+- 🌍 Geographic Analysis: Geo map of applicant distribution by country
 
-🟢 Campaign Insights: Donut/Bar charts for campaign regions & types
+- 🟢 Campaign Insights: Donut/Bar charts for campaign regions & types
 
-📌 Filters/Controls: Date range, Country, Campaign Region, Campaign Season, Status Category
+- 📌 Filters/Controls: Date range, Country, Campaign Region, Campaign Season, Status Category
 
-📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
+- 📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
 
 ## 🌟 Key Insights
-Insight	Detail
-🌍 Reach	Applicants came from multiple countries, showing global reach
-🟢 Campaign Region vs Type	Distribution showed ~70% online (with regions) vs 30% offline (no region)
-📞 Connectivity	Clear difference between connected vs disconnected calls, impacting campaign effectiveness
-🧑‍💼 Agent Activity	Some agents showed much higher call volumes and success rates, suggesting performance gaps
-📅 Seasonality	Campaigns varied by season, highlighting opportunities for better scheduling
+### Insight	Detail
+- 🌍 Reach	Applicants came from multiple countries, showing global reach
+- 🟢 Campaign Region vs Type	Distribution showed ~70% online (with regions) vs 30% offline (no region)
+- 📞 Connectivity	Clear difference between connected vs disconnected calls, impacting campaign effectiveness
+- 🧑‍💼 Agent Activity	Some agents showed much higher call volumes and success rates, suggesting performance gaps
+- 📅 Seasonality	Campaigns varied by season, highlighting opportunities for better scheduling
 ## 💡 Recommendations
 
 📌 Standardize campaign data entry to reduce missing regions
@@ -80,22 +80,22 @@ Insight	Detail
 
 ## 🔗 Demo & Files
 
-<a href="#"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
+- <a href="#"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
 
-<a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
+- <a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
 
-<a href="#"> [📂 Dataset Schema & Documentation]</a>
+- <a href="#"> [📂 Dataset Schema & Documentation]</a>
 
 ## 🧠 What I Learned
 
-Data cleaning & validation with PostgreSQL
+- Data cleaning & validation with PostgreSQL
 
-Creating materialized views for scalable analytics
+- Creating materialized views for scalable analytics
 
-Using Supabase for database hosting & real-time integration
+- Using Supabase for database hosting & real-time integration
 
-Designing interactive dashboards in Looker Studio
+- Designing interactive dashboards in Looker Studio
 
-Turning raw data into insights for decision-making
+- Turning raw data into insights for decision-making
 
-💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from raw data → database integration → dashboard storytelling.
+## 💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from raw data → database integration → dashboard storytelling.
