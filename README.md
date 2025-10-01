@@ -1,55 +1,101 @@
-# 📊 University Marketing Campaign Data Analysis and Visualization
+🎓 University Marketing Campaign Data Analysis & Visualization (Supabase + Looker Studio)
 
-This project focuses on analyzing and visualizing university marketing campaign data to uncover trends, evaluate performance, and generate actionable insights. The workflow followed an end-to-end data pipeline: cleaning → integration → visualization.
+In today’s competitive education landscape, marketing campaigns play a crucial role in reaching prospective students across regions. This project analyzes university marketing campaign data, integrates it into a scalable database, and builds an interactive dashboard to uncover insights about applicant demographics, campaign performance, and agent activity.
 
-🔹 Data Preparation
+📂 Dataset
 
-Cleaned and validated raw datasets using PostgreSQL, applying business rule validation to ensure accuracy and consistency.
+Sources: University outreach & applicant datasets (Applicants, Outreach Calls, Campaigns)
 
-Created a master table by joining three datasets:
+Rows: ~33,000
 
-Applicants Data – applicant profiles and country details.
+Columns: 15+ across multiple tables
 
-Outreach Data – call records and outcomes.
+Contents: Applicant profiles, call outcomes, campaign details (type, region, season, status), agent activities
 
-Campaign Data – campaign-level information (type, region, status, season).
+🎯 Project Goals
 
-🔹 Database Management
+✅ Clean and validate raw datasets using PostgreSQL
 
-Loaded all cleaned tables into Supabase, leveraging its scalability and PostgreSQL backbone.
+✅ Create a master table by joining applicants, outreach, and campaign data
 
-Structured the schema to support joins between applicants, outreach, and campaigns for a unified analysis.
+✅ Load structured data into Supabase for scalability and integration
 
-🔹 Visualization
+✅ Build an interactive Looker Studio dashboard for stakeholders
 
-Connected Supabase to Google Looker Studio to build an interactive dashboard.
+✅ Provide insights on campaign reach, performance, and applicant demographics
 
-Dashboard features:
+🛠️ Challenges & Solutions
+1. ⚠️ Data Cleaning & Business Rule Validation
 
-Filters/Controls: Date range, Country, Campaign Region, Season, and Status Category.
+Problem: Raw datasets contained inconsistencies (duplicate records, missing regions, invalid statuses).
 
-Charts Used:
+Solution: Applied SQL cleaning & business rule validation in PostgreSQL before integration.
 
-Time Series (call trends over time).
+2. 🔄 Master Table Creation
 
-Bar Charts (agent performance, campaign outcomes).
+Problem: Data was split across three different tables (Applicants, Outreach, Campaigns).
 
-Donut Chart (campaign region distribution).
+Solution: Designed SQL joins to create a single master_table (materialized view) in Supabase for easier analysis.
 
-Geo Map (applicant distribution by country).
+3. 📊 Visualization with Looker Studio
 
-KPI Cards (connected calls, disconnected calls, connectivity rate).
+Problem: Needed real-time, interactive visualization directly from Supabase.
 
-🔹 Key Insights
+Solution: Connected Looker Studio to Supabase, applied custom SQL queries, and optimized refresh times for large datasets.
 
-Online Call Campaigns captured region-specific data (~70%) while offline campaigns did not (~30%), highlighting differences in campaign setup.
+📊 Dashboard Overview
 
-Significant variation in agent activity and outcomes revealed opportunities for performance improvement.
+The Looker Studio dashboard includes:
 
-Applicant data showed wide geographic reach, with distinct regional trends.
+📈 Time Series: Call trends over time (with campaign season drill-down)
 
-Clear visibility into campaign seasonality and status categories supported periodic reviews.
+🧑‍💼 Agent Performance: Bar chart showing caller activity & outcomes
 
-🔹 Outcome
+🌍 Geographic Analysis: Geo map of applicant distribution by country
 
-This project demonstrates the complete workflow of data cleaning, database integration, and interactive visualization. The resulting dashboard provides stakeholders with a live, functional tool to evaluate marketing campaign effectiveness and identify areas for strategic improvement.
+🟢 Campaign Insights: Donut/Bar charts for campaign regions & types
+
+📌 Filters/Controls: Date range, Country, Campaign Region, Campaign Season, Status Category
+
+📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
+
+🌟 Key Insights
+Insight	Detail
+🌍 Reach	Applicants came from multiple countries, showing global reach
+🟢 Campaign Region vs Type	Distribution showed ~70% online (with regions) vs 30% offline (no region)
+📞 Connectivity	Clear difference between connected vs disconnected calls, impacting campaign effectiveness
+🧑‍💼 Agent Activity	Some agents showed much higher call volumes and success rates, suggesting performance gaps
+📅 Seasonality	Campaigns varied by season, highlighting opportunities for better scheduling
+💡 Recommendations
+
+📌 Standardize campaign data entry to reduce missing regions
+
+📌 Improve agent training & resource allocation based on performance analysis
+
+📌 Focus on regions with higher applicant engagement for future campaigns
+
+📌 Enhance call strategies to improve connectivity rates
+
+📌 Monitor seasonality to time campaigns more effectively
+
+🔗 Demo & Files
+
+<a href="#"> [📊 Looker Studio Dashboard Screenshot / Demo Link]</a>
+
+<a href="#"> [📄 SQL Queries for Data Cleaning & Master Table]</a>
+
+<a href="#"> [📂 Dataset Schema & Documentation]</a>
+
+🧠 What I Learned
+
+Data cleaning & validation with PostgreSQL
+
+Creating materialized views for scalable analytics
+
+Using Supabase for database hosting & real-time integration
+
+Designing interactive dashboards in Looker Studio
+
+Turning raw data into insights for decision-making
+
+💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from raw data → database integration → dashboard storytelling.
