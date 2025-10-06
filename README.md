@@ -135,4 +135,4 @@ The Looker Studio dashboard includes:
 ---
 
 ## 💼 This project highlights my skills in data engineering, SQL, and visualization using cloud databases and BI tools. It demonstrates the complete workflow from 
-- ### Raw data → Data Cleaning → database integration → Finding Insights → Data Validation → dashboard storytelling
+- ### Raw Data → Data Cleaning → Database Integration → Finding Insights → Data Validation → Dashboard Storytelling
