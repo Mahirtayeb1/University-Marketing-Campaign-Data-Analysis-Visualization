@@ -72,7 +72,7 @@ The Looker Studio dashboard includes:
 
 - 📊 KPI Metrics: Connected Calls, Disconnected Calls, Connectivity Rate
 
-<img src="Dashboard/images/Calls Distribution.PNG.png" width="600">
+<img src="Calls Distribution.PNG.png" width="600">
 ---
 
 ## 🌟 Key Insights
